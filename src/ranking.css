@@ -1,0 +1,92 @@
+.ranking-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rank {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-color: rgb(138, 204, 243, 0.5);
+  border-width: 0px 0 1px 0;
+  border-style: solid;
+}
+
+.rank-row {
+  width: 22%;
+  text-align: center;
+}
+
+.rank-header {
+  width: 100%;
+  display:  flex;
+}
+
+.rank-header-row {
+  width: 25%;
+  text-align: center;
+  font-size: 1.3em;
+  color: rgb(206, 206, 206);
+}
+
+.ranking-container h2 {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(55, 142, 192, 0.8);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.ranking-list {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.ranking-list span {
+  text-align: center;
+  font-size: 2.7em;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 0.5px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  -webkit-text-stroke-color: rgb(5, 5, 5)
+}
+
+.rank-btn-container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  outline: 0;
+}
+
+.ranking-container button {
+  border-radius: 15px;
+  border: 1px solid rgb(75, 178, 238);
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  padding: 5px;
+  background-color: rgba(250, 250, 250, 0.5);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  outline: 0;
+}
+
+.ranking-container button:hover {
+  border-radius: 15px;
+  border: 1px solid rgb(75, 178, 238);
+  color: rgb(0, 123, 194);
+  text-align: center;
+  font-size: 1em;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  outline: 0;
+}
